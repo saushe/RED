@@ -24,7 +24,7 @@ The package automatically separates categorical and continuous variables of your
 
 # Installation Guide
  
- ```install_github()``` function of the ```devtools``` package can be used to install the package from github repository. First install the package ```devtools``` and the run following commands
+ ```install_github()``` function of the ```devtools``` package can be used to install the package from github repository. First install the package ```devtools``` and then run following commands
  
  ``` R
 library(devtools)
