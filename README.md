@@ -1,9 +1,9 @@
 # RED
-R Exploratory Data analysis package
+R Exploratory Data analysis package.
 
-The package provides functions for comprehensive exploratory analysis
+The package provides functions for comprehensive exploratory analysis.
 
-The package automatically separates categorical and continuous variables of your data set and then performs univariate and bivariate  analysis for both the types of variables. The package also contains functions to transform data to generate a model ready data set is also available.
+The package automatically separates categorical and continuous variables of your data set and then performs univariate and bivariate  analysis for both the types of variables. The package also contains functions to transform data to generate a model ready data set.
 
 # Description of the functions available
   ```univariate_charvar``` : The function performs univariate analysis on all the categorical variables of the data. It automatically identifies all the categorical variables and  performs univariate analysis
