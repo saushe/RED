@@ -1,0 +1,13 @@
+Package: RED
+Type: Package
+Title: Performs exploratory data analysis
+Version: 0.1.0
+Author: Saurav Shekhar
+Maintainer: Saurav Shekhar <shekhar.saurav@outlook.com>
+Date: 2017-01-12
+Description: The package automatically separates numeric and categorical variables and performs univariate and bivariate analysis for both the types of variables. It also provides options for variable transformation to create model ready data set.
+License: GLP-2
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Imports:  dplyr, fBasics, timeSeries
+Depends: fBasics (>= 3011.87), dplyr (>= 0.5.0), timeSeries
