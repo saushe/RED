@@ -139,7 +139,7 @@ table(cars2$Country)
    France   Germany     Japan Japan/USA     Korea    Mexico    Sweden       USA 
         1         2        19         7         3         1         1        26 
  ```
- Now lets say at you want to group all the countries with less than 5% of the observations as other. Ypu can use ```replace_charvar```
+ Now lets say at you want to group all the countries with less than 5% of the observations as other. You can use ```replace_charvar```
  
  ```R
  class(cars2$Country)
