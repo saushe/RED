@@ -103,7 +103,7 @@ Species           Species   factor             0               0
 ```R
 row_missing_count(df)
 ```
-## mv_treatment_charvar()
+## mv_treatment_numrvar()
 ```R
 mv_treatment_numvar(df, col.del_cutoff = 0.5) 
 ```
