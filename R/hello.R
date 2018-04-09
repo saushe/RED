@@ -251,7 +251,7 @@ mv_treatment_numvar<- function(df, col.del_cutoff = 0.5, var_list = num_var, tre
   {
     keep_cols<- setdiff(colnames(df),del_cols)
     df<- df[,c(keep_cols)]
-    char_var<- setdiff(char_var,del_cols)
+    num_var<- setdiff(num_var,del_cols)
     temp_df1<- temp_df1[-which(temp_df1$vars_name %in% del_cols),]
   }
 
